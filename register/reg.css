@@ -1,0 +1,53 @@
+body{
+    background-color: #f9f6ee;
+}
+
+/* media query */
+@media (min-width: 768px){
+    div#info{
+        width: 950px;
+    }
+
+    div#groupInfo{
+        width: 388px;
+    }
+
+    #admissionYear{
+        width: 950px;
+    }
+}
+
+@media (max-width: 768px){
+    div#info{
+        width: 550px;
+    }
+
+    div#groupInfo{
+        width: 550px;
+    }
+
+    #admissionYear{
+        width: 550px;
+    }
+}
+
+@media (max-width: 576px){
+    div#info{
+        width: 330px;
+    }
+
+    div#groupInfo{
+        width: 330px;
+    }
+
+    #admissionYear{
+        width: 330px;
+    }
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.1s ease-in-out linear;
+
+}

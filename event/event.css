@@ -1,0 +1,98 @@
+body{
+    background-color: #f9f6ee;
+}
+
+.tamplate{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.215), rgba(0, 0, 0, 0.215)), url(image/imageTop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    color: black;
+}
+
+#eventWrap{
+    font-weight: bold;
+    text-align: center;
+}
+
+#eventWrap #eventText{
+    font-size: large;
+}
+
+/* event animation */
+#eventWrap #eventAnimation{
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    70%{
+        transform: translateY(20px);
+    }
+    90%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* media qeury */
+@media (max-width: 768px){
+    #exploreSchool{
+        font-size: none;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #eventWrap #eventText{
+        justify-self: center;
+        margin-top: 30px;
+        width: 250px;
+    }
+}
+
+@media(min-width: 767px){
+    #eventWrap #eventText{
+        margin-top: 50px;
+        width: 250px;
+    }
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.1s ease-in-out linear;
+
+}
+
+/* back to top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    outline: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+}  
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.1s ease-in-out linear;
+}

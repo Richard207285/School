@@ -1,0 +1,97 @@
+body{
+    background-color: #f9f6ee;
+}
+
+.tamplate{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.215), rgba(0, 0, 0, 0.215)), url(image/tamplate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#course #text{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 50px;
+}
+
+div#course #text img{
+    border-radius: 20px;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* media query */
+@media (max-width: 576px){
+    #carousel{
+        display: none;
+    }
+}
+
+@media (max-width: 767px){
+    #studyText{
+        width: 300px;
+        justify-self: center;
+        margin-top: 15px;
+        border-radius: 10px;
+        font-size: medium;
+    }
+
+    #courseHead{
+        text-align: center;
+    }
+
+    div#course #text{
+        width: 300px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 767px){
+    #studyText{
+        width: 500px;
+        justify-self: center;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+
+    div#course #text{
+        width: 280px;
+        height: 180px;
+    }
+}
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.1s ease-in-out linear;
+}
+
+/* back to top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    outline: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 20px;
+}  
+
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.1s ease-in-out linear;
+}

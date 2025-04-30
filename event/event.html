@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <div class="tamplate" style="padding-bottom: 50px; padding-top: 10px;">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/home/image/logo-invert.053c89da.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/home/index.html" style="color: white;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/study/study.html" style="color: white;">Study</a>
+            </li>
+            <li>
+              <a class="nav-link active" href="#" style="color: white;">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/about/about.html" style="color: white;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/register/reg.html" style="color: white;">Enquery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <div class="container" style="margin-top: 100px;">
+      <div class="col">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+              <p style="margin: 30px; font-size: xx-large; font-weight: bold; font-family: Audiowide, sans-serif; color: white;">
+                  When you give joy to other poeple, you get more joy in return
+              </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="card">
+                  <div class="card-body">
+                      <p style="font-weight: bold;">
+                          Join us for, Explore, Discover, Attend, Experience, Celebrate, Learn, Engage, Connect, Network, and Immerse with our various events
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container" style="margin-top: 50px;">
+      <h3 style="font-family: Audiowide, sans-serif;">Middlesex Events</h3>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+        <!-- event text -->
+        <div class="text-start lead text-light mt-5 w-100" id="openDay">
+            <div>
+                <h3>What to expect at a Middlesex Open Day</h3>
+                <p>
+                    A Middlesex University undergraduate open day is your chance to learn about your course. Take a guided tour of your north London campus and see the specialist facilities you’ll use. Get advice on student finance and support. Meet the academic staff ready to answer your questions and chat to current students who tell it like it is.
+                    <ul>
+                        <li>
+                            Subject talks and interactive taster sessions designed to give you a deep-dive into our career-focused courses
+                        </li>
+                        <li>
+                            1-2-1 time with lecturers: Meet our supportive academics and ask questions about your course
+                        </li>
+                        <li>
+                            Campus tours with current students, including course facilities, library, campus-based halls of residence, plus the gym, tennis courts, and social spaces
+                        </li>
+                        <li>
+                            Advice and guidance talks - how to apply, writing a personal statement, placements, paid work, careers, financial aid, and more
+                        </li>
+                        <li>
+                            Meet our dedicated support teams - from additional needs to student loan guidance
+                        </li>
+                        <li>
+                            Stroll the campus and grab a coffee in one of our social spaces - a single-site location avoids the hassle of navigating different sites for your learning.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="mt-5" id="tour">
+                <h3>What to expect on your campus visit</h3>
+                <p>
+                    <div>
+                        <div class="d-flex">
+                            <div><h5>Travel and Arrival</h5></div> 
+                            <div><button type="button" class="btn btn-secondary ms-5" id="travelBtn"><i class="bi bi-plus-lg"></i></button></div>
+                        </div>
+                        <span id="travelText" style="display: none;">
+                            Parking is limited on campus and in the surrounding area. There is no parking on campus before 4.30pm on weekdays. If you are taking public transport, we are well connected to the Northern Line via Hendon Central station and the Hendon Thameslink mainline station.
+                            Make sure you arrive no more than 15 minutes before your tour start time.
+                        </span>
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <div class="d-flex">
+                            <div><h5>Registration</h5></div> 
+                            <div><button type="button" class="btn btn-secondary ms-5" id="registerBtn"><i class="bi bi-plus-lg"></i></button></div>
+                        </div>
+                        <span id="registerText" style="display: none;">
+                            You'll be registered on arrival by one of our student ambassadors. All tour groups are limited to a maximum of ten people.
+                        </span>
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <div class="d-flex">
+                            <div><h5>During your Tour</h5></div> 
+                            <div><button type="button" class="btn btn-secondary ms-5" id="duringBtn"><i class="bi bi-plus-lg"></i></button></div>
+                        </div>
+                        <span id="duringText" style="display: none;">
+                            One of our ambassadors will guide you around the main buildings and facilities on campus.The entire tour will last about 30 minutes.
+                            You'll have the opportunity to ask your tour ambassador any questions about student life and the Middlesex community.
+                        </span>
+                    </div>
+                </p>
+                <p>
+                    <div>
+                        <div class="d-flex">
+                            <div><h5>Admissions</h5></div> 
+                            <div><button type="button" class="btn btn-secondary ms-5" id="admissionBtn"><i class="bi bi-plus-lg"></i></button></div>
+                        </div>
+                        <span id="admissionText" style="display: none;">
+                            If you have any questions, your tour ambassador can show you back to the Quad in the College Building where you'll be able to speak to our admissions team after your tour.
+                        </span>
+                    </div>
+                </p>
+            </div>
+
+            <div class="mt-5" id="openEvent">
+                <h3>What to expect from a Postgraduate Virtual Event:</h3>
+                <p>
+                    Join us for live Zoom sessions tailored to your interests. From in-depth subject talks to discussions on course details, you'll have the opportunity to ask questions on careers, finance, admissions, and more.
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>Get personalised study advice:</dt>
+                                <dd>
+                                    Gain valuable insights into your chosen field with expert academics presenting individual sessions. Learn how we work with professional bodies to ensure our postgraduate courses meet industry standards and help enhance your CV.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Discuss your study options:</dt>
+                                <dd>
+                                    Find out more about Middlesex blended and online formats and how we support you in balancing your study, work, and life which is why we’re the top UK university for part-time postgraduate satisfaction (PTES, 2024).
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Understand funding options:</dt>
+                                <dd>
+                                    Guidance on accessing scholarships, bursaries and up to £12,167 in student loans, alongside our exclusive Postgraduate Financial Support Pack, worth up to £1,000, including a device and a grant.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Explore our vibrant community:</dt>
+                                <dd>
+                                    Through our graduate and student panels. Hear directly from our graduates as they share their first-hand experiences of how postgraduate study at Middlesex University advanced their careers.
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Applicant support:</dt>
+                                <dd>
+                                    Discuss your application and receive clear guidance on the steps you need to take. Our team will walk you through the process and answer any questions you have to ensure you’re well-prepared.
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <button class="d-none d-lg-block" onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+  </div>
+
+  <script src="event.js"></script>
+</body>
+</html>

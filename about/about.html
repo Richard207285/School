@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="tamplate" style="padding-bottom: 50px; padding-top: 10px;">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="/home/image/logo-invert.053c89da.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/home/index.html" style="color: white;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/study/study.html" style="color: white;">Study</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/event/event.html" style="color: white;">Event</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/about/about.html" style="color: white;">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/register/reg.html" aria-current="page" class="nav-link" style="color: white;">Enquery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- navbar ends here -->
+
+        <div class="container" style="margin-top: 100px;">
+            <div class="col">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p style="margin: 30px; font-size: xx-large; font-weight: bold; font-family: Audiowide, sans-serif; color: white;">
+                        Do what you can, with what you have, where you are
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <p style="font-weight: bold;">
+                                An institution where students study for degrees and where academic research is done
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <h2 class="mt-3" style="font-family: Audiowide, sans-serif;">About Us</h2>
+                <p class="lead mt-4" id="aboutText">
+                    Middlesex University is a global, career-focused university with a welcoming and diverse community. We partner with industry and employers to take students on a transformative journey, so they graduate ready to step confidently into their future workplace.
+
+                    Our London campus has an international outlook with strong links to our Dubai and Mauritius campuses, alongside partners around the world. We provide opportunities for students and staff from all backgrounds to acquire the skills and experience to succeed in an increasingly global world.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 mt-5">
+                <img src="image/logo-invert.053c89da.png" alt="" style=" height: 300px; border-radius: 100px;" id="displayLogo">
+            </div>
+        </div>
+
+        <div class="row" style="margin-top: 100px;" id="authorities">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6" id="detail">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="image/prof3.webp" class="card-img-top" alt="">
+                                <h5 class="card-header">Dame Janet Ritterman</h5>
+                                <div class="card-text">
+                                    <p class="mb-2" style="display: none;" id="owner1">
+                                        Dame Janet, our Chancellor, is a prominent academic and musician with a global reputation as a champion of the arts.
+                                    </p>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnShow1" style="text-decoration: none;">Show more</button>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnHide1" style="text-decoration: none;">Show less</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6" id="detail">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="image/prof1.jpg" class="card-img-top" alt="">
+                                <h5 class="card-header">Dr Tim Westlake</h5>
+                                <div class="card-text">
+                                    <p class="mb-2" style="display: none;" id="owner2">
+                                        is our Interim Chief Operating Officer, having joined Middlesex University in July 2024. Tim has over 30 years of experience working in Higher Education.
+                                    </p>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnShow2" style="text-decoration: none;">Show more</button>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnHide2" style="text-decoration: none;">Show less</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 mt-3" id="detail">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="image/prof2.jpg" class="card-img-top" alt="">
+                                <h5 class="card-header">Dr Ellen Buck</h5>
+                                <div class="card-text">
+                                    <p class="mb-2" style="display: none;" id="owner3">
+                                        joined the University in the position of Pro Vice-Chancellor Education and Student Experience in February 2025.
+                                    </p>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnShow3" style="text-decoration: none;">Show more</button>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnHide3" style="text-decoration: none;">Show less</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 mt-3" id="detail">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="image/prof4.jpg" class="card-img-top" alt="">
+                                <h5 class="card-header">Professor Martin Broad</h5>
+                                <div class="card-text">
+                                    <p class="mb-2" style="display: none;" id="owner4">
+                                        is the Dean of our Faculty of Business and Law, which includes the Business School and the School of Law and Social Sciences.
+                                    </p>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnShow4" style="text-decoration: none;">Show more</button>
+                                    <button type="button" class="btn btn-dark btn-sm mt-3" id="ownerBtnHide4" style="text-decoration: none;">Show less</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 mt-5 mb-5" id="london">
+                <p>
+                    <h3 style="font-family: Audiowide, sans-serif;">Discover London</h3>
+                    You’ll love studying in London – whether you’re new to the city or not. <br>
+                    <br>
+                    <span style="font-size: large;">
+                        With iconic buildings, museums and art galleries, international sporting and world-class music and theatre events, vibrant local neighbourhoods, markets, amazing restaurants, bars and nightlife – there is something for everyone, right on your doorstep.
+                    </span>
+                    <p>
+                        <button type="button" class="btn btn-dark mt-3 ms-auto"><a href="/register/reg.html" style="text-decoration: none;">Make Enquery</a></button>
+                    </p>
+                </p>
+            </div>
+        </div>
+
+        <button class="d-none d-lg-block" onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="about.js"></script>
+</body>
+</html>
