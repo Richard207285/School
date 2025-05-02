@@ -3,7 +3,7 @@ body{
 }
 
 .tamplate{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.215), rgba(0, 0, 0, 0.215)), url(image/tamplate.avif);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.215), rgba(0, 0, 0, 0.215)), url(/image/aboutImg/tamplate.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
