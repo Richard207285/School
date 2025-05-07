@@ -1,6 +1,5 @@
 #tamplate{
-    background-color: black;
-    /* background-image: url(/image/tamplate.jpg); */
+    background-image: url(/image/tamplate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
